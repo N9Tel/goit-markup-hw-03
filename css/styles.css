@@ -177,10 +177,6 @@ ul {
     text-decoration: none;
 }
 
-.footer { 
-    background-color: var(--section-bg-color) #2f303a;
-    color: var(--txt-color);
-}
 
 address {
     font-style: normal;
@@ -217,13 +213,6 @@ color: var(--txt-color);
     letter-spacing: 0.03em;
 }
 
-.container {
-
-}
-
-.section {
-    
-}
 
 
     
