@@ -44,6 +44,11 @@ body {
 .current {
     color: var(--accent-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+
 }
 
 .nav .link{
@@ -64,6 +69,9 @@ body {
 .link-mail {
     color: var(--main-txt-color);
     text-decoration: none;
+    font-weight: 500;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
 }
 
 .tel:hover {
@@ -72,6 +80,9 @@ body {
 
 .tel {
     color: var(--main-txt-color);
+    font-weight: 500;
+        line-height: calc(16/14);
+        letter-spacing: 0.02em;
 }
 
 ul {
@@ -81,7 +92,6 @@ ul {
 /* Hero */
 
 .hero-title {
-    font-family: 'Roboto';
         font-weight: 900;
         font-size: 44px;
         line-height: calc(60/44);
@@ -99,13 +109,9 @@ ul {
     background-color: var(--accent-color);
     color: var(--txt-color);
     font-family: inherit;
-    font-family: 'Roboto';
         font-weight: 700;
         font-size: 16px;
         line-height: calc(30/16);   
-        display: flex;
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.06em;
         cursor: pointer;
 }
@@ -113,7 +119,6 @@ ul {
 /* Feature */
 
 .features {
-    font-family: 'Roboto';
         font-weight: 700;
         font-size: 14px;
         line-height: calc(16/14);
@@ -123,12 +128,19 @@ ul {
 }
 
 .title {
-    font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
         line-height: calc(42/36);
         letter-spacing: 0.03em;
         color: var(--header-color);
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+
 }
 
 /* Наша команда */
@@ -137,7 +149,6 @@ ul {
 }
 
 .team {
-    font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
         line-height: calc(19/16);
@@ -145,8 +156,11 @@ ul {
         color: var(--header-color);
 }
 
-.subtitle {
+.team-subtitle {
+    font-weight: 400;
     font-size: 16px;
+    line-height: calc(19/16);
+    letter-spacing: 0.03em;
 }
 
 
@@ -208,15 +222,21 @@ color: var(--txt-color);
 
 .pr-title {
     color: var(--header-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06;
 }
 
 .subtext {
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.03em;
 }
 
+.container {
+    
+}
 
 
     
