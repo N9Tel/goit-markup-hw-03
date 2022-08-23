@@ -51,6 +51,17 @@ body {
 
 }
 
+.list {
+    padding: 0;
+    margin: 0;
+
+}
+
+.list-contacts {
+    padding: 0;
+        margin: 0;
+}
+
 .nav .link{
     color: var(--header-color);
     font-weight: 500;
@@ -91,9 +102,12 @@ ul {
     list-style: none;
 }
 
+
 /* Hero */
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
         font-weight: 900;
         font-size: 44px;
         line-height: calc(60/44);
@@ -117,10 +131,17 @@ ul {
         letter-spacing: 0.06em;
         cursor: pointer;
         border-radius: 4px;
-        padding: 10px 32px;;
+        padding: 10px 32px;
+        text-align: center;
+        border: 1px solid transparent;
 }
 
 /* Feature */
+
+.feature-list {
+    padding: 0;
+    margin: 0;
+}
 
 .features {
         font-weight: 700;
@@ -217,6 +238,8 @@ cursor: pointer;
 border-radius: 4px;
 padding: 6px 22px;
 min-width: 73px;
+text-align: center;
+border: 1px solid transparent;
 }
 
 
@@ -241,7 +264,9 @@ color: var(--txt-color);
 }
 
 .container {
-
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
 }
 
 
