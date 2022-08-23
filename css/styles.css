@@ -59,6 +59,7 @@ body {
 .nav .link:hover,
 .nav .link:focus {
     color: var(--accent-color);
+    
 }
 
 
@@ -74,15 +75,16 @@ body {
     letter-spacing: 0.02em;
 }
 
-.tel:hover {
+.link-tel:hover {
     color: var(--accent-color);
 }
 
-.tel {
+.link-tel {
     color: var(--main-txt-color);
     font-weight: 500;
         line-height: calc(16/14);
         letter-spacing: 0.02em;
+        text-decoration: none;
 }
 
 ul {
@@ -136,7 +138,6 @@ ul {
 }
 
 .subtitle {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
@@ -157,7 +158,6 @@ ul {
 }
 
 .team-subtitle {
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
@@ -235,7 +235,7 @@ color: var(--txt-color);
 }
 
 .container {
-    
+
 }
 
 
