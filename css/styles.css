@@ -26,6 +26,10 @@ body {
 }
 
 /* Шапка */
+.header {
+    outline: 2px solid tomato;
+}
+
 .link-header {
     color: black;
     text-decoration: none;
@@ -37,6 +41,8 @@ body {
 }
 .logo {
     color: var(--accent-color);
+    margin-top: 0;
+        margin-bottom: 0;
     
 }
 
@@ -100,13 +106,21 @@ body {
 
 ul {
     list-style: none;
+    margin-top: 0;
+        margin-bottom: 0;
 }
 
 
 /* Hero */
+.section-hero {
+    outline: 2px solid green;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .hero-title {
     margin-top: 0;
+    margin-bottom: 0;
     margin-bottom: 30px;
         font-weight: 900;
         font-size: 44px;
@@ -116,7 +130,8 @@ ul {
         color: var(--txt-color);
 }
 
-.hero, .footer {
+.section-hero, 
+.footer {
     background-color: var(--section-bg-color);
     color: var(--txt-color);
 }
@@ -137,6 +152,11 @@ ul {
 }
 
 /* Feature */
+.section-feature {
+    outline: 2px solid tomato;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .feature-list {
     padding: 0;
@@ -150,6 +170,8 @@ ul {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--header-color);
+        margin-top: 0;
+        margin-bottom: 0;
 }
 
 .title {
@@ -158,19 +180,32 @@ ul {
         line-height: calc(42/36);
         letter-spacing: 0.03em;
         color: var(--header-color);
+        margin-top: 0;
+            margin-bottom: 0;
 }
 
 .subtitle {
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 0;
 
+}
+
+.section-work {
+    outline: 2px solid green;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Наша команда */
-.about {
+.section-about {
     background-color: var(--add-bg-color);
-}
+    outline: 2px solid tomato;
+    margin-top: 0;
+    margin-bottom: 0;
+}   
 
 .team {
         font-weight: 500;
@@ -184,6 +219,8 @@ ul {
     font-size: 16px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
+    margin-top: 0;
+        margin-bottom: 0;
 }
 
 
@@ -193,6 +230,11 @@ ul {
 }
 
 /* Підвал */
+.footer {
+    margin-top: 0;
+        margin-bottom: 0;
+}
+
 .footer-link {
     font-family: 'Raleway';
         font-weight: 700;
