@@ -26,8 +26,16 @@ body {
 }
 
 /* Шапка */
-.header {
+.section-header {
     outline: 2px solid tomato;
+display:inline-block;
+padding-top:;
+}
+
+
+.section-header> a {
+    display:inline-block;
+    padding-top: ;
 }
 
 .link-header {
@@ -112,7 +120,7 @@ ul {
 
 
 /* Hero */
-.section-hero {
+. section .section-hero {
     outline: 2px solid green;
     margin-top: 0;
     margin-bottom: 0;
@@ -131,7 +139,7 @@ ul {
 }
 
 .section-hero, 
-.footer {
+.section-footer {
     background-color: var(--section-bg-color);
     color: var(--txt-color);
 }
@@ -152,7 +160,7 @@ ul {
 }
 
 /* Feature */
-.section-feature {
+.section .section-feature {
     outline: 2px solid tomato;
     margin-top: 0;
     margin-bottom: 0;
@@ -193,14 +201,14 @@ ul {
 
 }
 
-.section-work {
+.section .section-work {
     outline: 2px solid green;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 /* Наша команда */
-.section-about {
+.section .section-about {
     background-color: var(--add-bg-color);
     outline: 2px solid tomato;
     margin-top: 0;
@@ -307,8 +315,11 @@ color: var(--txt-color);
 
 .container {
 width: 1200px;
-margin-left: auto;
 margin-right: auto;
+margin-left: auto;
+padding-right: 15px;
+padding-left: 15px;
+
 }
 
 
