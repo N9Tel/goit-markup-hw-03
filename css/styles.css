@@ -28,15 +28,13 @@ body {
 /* Шапка */
 .section-header {
     outline: 2px solid tomato;
-display:inline-block;
-padding-top:;
+    padding-top: 0;
+    padding-bottom: 0;
+
+
 }
 
 
-.section-header> a {
-    display:inline-block;
-    padding-top: ;
-}
 
 .link-header {
     color: black;
@@ -55,6 +53,9 @@ padding-top:;
 }
 
 /* Навігація */
+
+
+
 .current {
     color: var(--accent-color);
     text-decoration: none;
@@ -120,7 +121,7 @@ ul {
 
 
 /* Hero */
-. section .section-hero {
+.section-hero {
     outline: 2px solid green;
     margin-top: 0;
     margin-bottom: 0;
@@ -160,7 +161,7 @@ ul {
 }
 
 /* Feature */
-.section .section-feature {
+.section-feature {
     outline: 2px solid tomato;
     margin-top: 0;
     margin-bottom: 0;
@@ -190,6 +191,7 @@ ul {
         color: var(--header-color);
         margin-top: 0;
             margin-bottom: 0;
+
 }
 
 .subtitle {
@@ -201,14 +203,14 @@ ul {
 
 }
 
-.section .section-work {
+.section-work {
     outline: 2px solid green;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 /* Наша команда */
-.section .section-about {
+.section-about {
     background-color: var(--add-bg-color);
     outline: 2px solid tomato;
     margin-top: 0;
@@ -267,6 +269,17 @@ ul {
 
 address {
     font-style: normal;
+}
+
+.section {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Стилі для portfolio.html */
