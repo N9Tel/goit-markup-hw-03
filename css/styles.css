@@ -161,6 +161,8 @@ ul {
         color: var(--txt-color);
         margin-right: auto;
             margin-left: auto;
+            width: 696px;
+            text-align: center;
 
 }
 
@@ -338,7 +340,13 @@ border: 1px solid transparent;
 }
 
 .description {
-    
+    width: 370px;
+border-top: 1px solid #ECECEC;
+padding-top: 20px;
+padding-right: 24px;
+padding-bottom: 20px;
+padding-left: 24px;
+
 }
 
 
@@ -360,6 +368,10 @@ color: var(--txt-color);
     font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.03em;
+}
+
+.section-project {
+
 }
 
 .container {
