@@ -35,7 +35,7 @@ body {
 
 .header-box {
     display: flex;
-    
+
 }
 
 
@@ -60,6 +60,8 @@ body {
 
 .link-header {
 margin-right: 93px;
+padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .current {
@@ -90,10 +92,11 @@ margin-right: 93px;
 }
 
 .list-contacts {
-    display: flex;
-    display: inline-block;
+    display: flex;    
     align-items: center;
     gap: 50px;
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .nav .link{
