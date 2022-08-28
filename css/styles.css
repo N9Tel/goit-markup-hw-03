@@ -180,6 +180,8 @@ ul {
             margin-left: auto;
             width: 696px;
             text-align: center;
+            padding: 0;
+            
 
 }
 
@@ -209,8 +211,7 @@ ul {
 }
 
 /* Feature */
-.section-feature {
-    outline: 2px solid tomato;
+.section-feature {   
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -226,7 +227,7 @@ ul {
     width: 270px;
 }
 
-.feature-item: not(:nth-last-child) {
+.feature-item :not(:nth-last-child) {
     margin-right: 30px;
 }
 
@@ -239,6 +240,7 @@ ul {
         color: var(--header-color);
         margin-top: 0;
         margin-bottom: 10px;
+        padding: 0;
 }
 
 .title {
@@ -250,6 +252,7 @@ ul {
         margin-top: 0;
             margin-bottom: 50;
             text-align: center;
+            padding: 0;
 
 }
 
@@ -273,7 +276,6 @@ ul {
 }
 
 .section-work {
-    outline: 2px solid green;
     margin-top: 0;
     margin-bottom: 0;
     
@@ -283,7 +285,6 @@ ul {
 /* Наша команда */
 .section-about {
     background-color: var(--add-bg-color);
-    outline: 2px solid tomato;
     margin-top: 0;
     margin-bottom: 0;
 } 
@@ -503,19 +504,20 @@ color: var(--txt-color);
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    margin-top: 20px;
+    padding: 0;
 }
 
 .subtext {
     font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.03em;
-    margin-top: 20px;
-    margin-bottom: 4px;
+    padding: 0;
+   
 }
 
-.section-project {
 
-}
 
 .container {
 width: 1200px;
