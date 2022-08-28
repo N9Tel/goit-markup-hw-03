@@ -412,6 +412,10 @@ img {
     margin-right: 0px;
 }
 
+.flex-item {
+    width: 370px;
+}
+
 
 .c-button {
     display: inline-block;
