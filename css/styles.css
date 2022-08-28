@@ -36,6 +36,10 @@ body {
 
 .header-box {
     display: flex;
+    width: 1200px;
+        padding-right: 15px;
+        padding-left: 15px;
+
 
 }
 
@@ -79,14 +83,18 @@ padding-top: 24px;
 }
 .nav {
     margin-right: auto;
+
     
+}
+
+.nav-item {
+    align-items: baseline;
 }
 
 .nav-list {
     display: flex;
     gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
 }
 
 .list {
@@ -99,13 +107,16 @@ padding-top: 24px;
     display: flex;    
     align-items: center;
     gap: 50px;
-    padding-top: 32px;
-        padding-bottom: 32px;
+    
 }
 
-.nav .link{
+.nav .current .link {
     color: var(--header-color);
     font-weight: 500;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
+    align-items: baseline;
 
 }
 .nav .link:hover,
@@ -237,6 +248,14 @@ ul {
 
 }
 
+/* Чим ми займаємося */
+
+.work-list {
+    display: flex;
+        
+        
+}
+
 .section-work {
     outline: 2px solid green;
     margin-top: 0;
@@ -250,7 +269,11 @@ ul {
     outline: 2px solid tomato;
     margin-top: 0;
     margin-bottom: 0;
-}   
+} 
+
+.container-team {
+    justify-content: space-evenly;
+}
 
 .team {
         font-weight: 500;
@@ -258,6 +281,12 @@ ul {
         line-height: calc(19/16);
         letter-spacing: 0.03em;
         color: var(--header-color);
+        
+}
+
+.team-img {
+margin-bottom: 10px;
+
 }
 
 .team-subtitle {
@@ -331,7 +360,7 @@ img {
     overflow: hidden;
 }
 
-.item {
+.flex-item {
     display: block;
 }
 
@@ -346,10 +375,19 @@ img {
     margin-right: 0px;
 }
 
-.card-set {
+.flex-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
    
+}
+
+.flex-item {
+    width: 370px;   
+}
+
+.flex-item :nth-child(3n) {
+    margin-right: 0px;
 }
 
 
