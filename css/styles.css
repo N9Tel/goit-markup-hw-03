@@ -164,7 +164,7 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 280px;
 }
 
 .hero-title {
@@ -219,10 +219,15 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
+    gap: 30px;
 }
 
 .feature-item {
     width: 270px;
+}
+
+.feature-item: not(:nth-last-child) {
+    margin-right: 30px;
 }
 
 .features {
@@ -341,6 +346,8 @@ text-align: center;
 .footer-list {
     margin-top: 20px;
     margin-left: 0;
+    padding: 0;
+    padding-bottom: 60px;
 }
 
 .footer-item {
