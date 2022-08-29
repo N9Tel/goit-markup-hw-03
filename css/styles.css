@@ -27,18 +27,18 @@ body {
 
 /* Шапка */
 .section-header {
-   
-    padding-top: 0;
-    padding-bottom: 0;
-    border: 1px solid #ECECEC;
-
-}
+border-bottom: 1px solid #ECECEC;
+} 
+    
+    
+    
 
 .header-box {
     display: flex;
     width: 1200px;
         padding-right: 15px;
         padding-left: 15px;
+        align-items: center;
 
 
 }
@@ -95,7 +95,13 @@ padding-top: 24px;
 .nav-list {
     display: flex;
     gap: 50px;
+    padding: 0;
     
+}
+
+.nav a {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .list {
@@ -155,6 +161,7 @@ ul {
     list-style: none;
     margin-top: 0;
         margin-bottom: 0;
+        padding: 0;
 }
 
 
@@ -164,7 +171,7 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
