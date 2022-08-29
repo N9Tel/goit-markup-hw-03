@@ -114,6 +114,7 @@ padding-top: 24px;
     display: flex;    
     align-items: center;    
     gap: 50px;
+    margin-bottom: 32px;
     
 }
 
@@ -256,10 +257,10 @@ ul {
         line-height: calc(42/36);
         letter-spacing: 0.03em;
         color: var(--header-color);
-        margin-top: 0;
-            margin-bottom: 50;
             text-align: center;
             padding: 0;
+            margin-top: 0;
+                margin-bottom: 50px;
 
 }
 
@@ -285,6 +286,7 @@ ul {
 .section-work {
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 0;
     
     
 }
@@ -312,6 +314,7 @@ ul {
         line-height: calc(19/16);
         letter-spacing: 0.03em;
         color: var(--header-color);
+        margin: 0;
         margin-bottom: 10px;
         
 }
@@ -322,6 +325,8 @@ ul {
     margin-top: 30px;
 margin-bottom: 10px;
 text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
 
 }
 
@@ -340,14 +345,17 @@ text-align: center;
 }
 
 /* Підвал */
-.footer {
+.section-footer {
     margin-top: 0;
         margin-bottom: 0;
+        padding-top: 60px;
+            padding-bottom: 60px;
 }
 
 .container-footer {
-    padding-top: 60px;
-    padding-left: 215px;
+    
+
+
     
 }
 
@@ -355,7 +363,7 @@ text-align: center;
     margin-top: 20px;
     margin-left: 0;
     padding: 0;
-    padding-bottom: 60px;
+    
 }
 
 .footer-item {
@@ -393,6 +401,14 @@ address {
     margin-bottom: 9px;
 }
 
+.paragraph {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.footer-item-mail {
+    margin-bottom: 9px;
+}
+
 .section {
 padding-top: 94px;
 padding-bottom: 94px;
@@ -427,6 +443,7 @@ img {
     display: flex;
     margin-bottom: 56px;
     justify-content: center;
+    padding: 0;
     
 
 }
@@ -437,21 +454,14 @@ img {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-    
-    
-    
-   
+    gap: 30px;
+    padding-left: 0;  
+    gap: 30px;  
 }
 
 .flex-element {
     width: 370px;
-    margin-bottom: 30px;
+    
     
       
 }
@@ -488,9 +498,9 @@ margin-right: 30px;
 }
 
 .description {
-    width: 370px;
    
 border: 1px solid #ECECEC;
+border-top: none;
 padding-top: 20px;
 padding-right: 24px;
 padding-bottom: 20px;
@@ -511,8 +521,8 @@ color: var(--txt-color);
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
+    margin: 0;
     margin-bottom: 4px;
-    margin-top: 20px;
     padding: 0;
 }
 
