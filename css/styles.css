@@ -443,9 +443,7 @@ img {
     overflow: hidden;
 }
 
-.flex-item {
-    display: block;
-}
+
 
 .buttons {
     display: flex;
@@ -464,7 +462,7 @@ img {
     flex-wrap: wrap;
     gap: 30px;
     padding-left: 0;  
-    gap: 30px;  
+      
 }
 
 .flex-element {
@@ -483,8 +481,10 @@ img {
 }
 
 .flex-item {
-    width: 370px;
+    margin: 0;
+   
 }
+
 
 
 .c-button {
@@ -530,7 +530,7 @@ color: var(--txt-color);
     line-height: calc(36/18);
     letter-spacing: 0.06em;
     margin: 0;
-    margin-bottom: 4px;
+    
     padding: 0;
 }
 
@@ -539,6 +539,7 @@ color: var(--txt-color);
     line-height: calc(30/16);
     letter-spacing: 0.03em;
     padding: 0;
+    
    
 }
 
