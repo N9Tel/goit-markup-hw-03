@@ -82,6 +82,12 @@ ul {
     padding: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Навігація */
 
 .nav {
@@ -113,8 +119,8 @@ ul {
 
 
 .nav-item {
-    display: inline-block;
-    /* padding: 32px 0; */
+    display: block;
+     padding: 32px 0; 
     
 }
 
@@ -124,8 +130,8 @@ ul {
     display: flex;    
     align-items: center;    
     gap: 50px;
-    /* margin-top: 32px;
-    margin-bottom: 32px; */
+    padding-top: 32px;
+    padding-bottom: 32px;
     
 }
 
@@ -376,14 +382,11 @@ padding-bottom: 30px;
 
 
 .footer-list {
-    margin-top: 9px;
+    /* display: flex;
+    gap: 9px; */
     margin-left: 0;
     padding: 0;
-    
 }
-
-
-
 
 
 .footer-link {
@@ -397,6 +400,20 @@ padding-bottom: 30px;
         margin-top: 20px;
 }
 
+address {
+    font-style: normal;
+    margin-top: 20px;
+
+}
+
+.paragraph {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 9px;
+}
+
+
+
 .link-footer:hover,
 .link-footer:focus {
     color: var(--accent-color);
@@ -406,39 +423,26 @@ padding-bottom: 30px;
 .link-footer {
     color: var(--add-color);
     text-decoration: none;
+
     
 }
 
 
-address {
-    font-style: normal;
-    margin-top: 20px;
-   
-}
-
-.paragraph {
-    margin: 0;
+ .footer-item :not(:nth-last-child) {
     margin-bottom: 9px;
-}
-.style {
+} 
     
     
-}
-
-/* .footer-item {
+ /* .footer-item {
    
-} */
+}  */
 
 
 
 
 
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+
 
 /* Стилі для portfolio.html */
 .visually-hidden {
@@ -494,13 +498,13 @@ img {
 
 .flex-item {
     margin: 0;
-    margin-bottom: 20px;
+    
 }
 
 
 
 .c-button {
-    /* display: inline-block; */
+    
 background-color : var(--add-bg-color);
 color: var(--header-color);
 font-family: inherit;
@@ -511,10 +515,9 @@ font-family: inherit;
 cursor: pointer;
 border-radius: 4px;
 padding: 6px 22px;
-/* min-width: 73px; */
 text-align: center;
 border: 1px solid transparent;
-/* margin-right: 30px; */
+
 }
 
 .description {
@@ -539,7 +542,7 @@ color: var(--txt-color);
     line-height: calc(36/18);
     letter-spacing: 0.06em;
     margin: 0;
-    
+    margin-bottom: 4px;
     padding: 0;
 }
 
